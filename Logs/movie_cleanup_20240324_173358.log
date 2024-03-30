@@ -1,0 +1,300 @@
+2024-03-24 17:33:58,093 - INFO - Deleted old log file: C:\Users\joshu\OneDrive\Desktop\Movie Cleanup App\Logs\movie_cleanup_20240324_163043.log
+2024-03-24 17:33:58,094 - INFO - Script started
+2024-03-24 17:33:58,095 - INFO - Files organized into folders.
+2024-03-24 17:33:58,098 - INFO - Unwanted files cleaned.
+2024-03-24 17:33:58,099 - DEBUG - Attempting to parse filename: .057a5a43b708a16880e04b066bc46f905453289a.parts
+2024-03-24 17:33:58,099 - DEBUG - Skipping hidden or unmatched file: .057a5a43b708a16880e04b066bc46f905453289a.parts
+2024-03-24 17:33:58,099 - DEBUG - Attempting to parse filename: .0bb3ba49ea0b583c058f35a96e003759a7e08ae8.parts
+2024-03-24 17:33:58,099 - DEBUG - Skipping hidden or unmatched file: .0bb3ba49ea0b583c058f35a96e003759a7e08ae8.parts
+2024-03-24 17:33:58,099 - DEBUG - Attempting to parse filename: .0fa630c84627083a89958c0df2cbb979ea25d987.parts
+2024-03-24 17:33:58,100 - DEBUG - Skipping hidden or unmatched file: .0fa630c84627083a89958c0df2cbb979ea25d987.parts
+2024-03-24 17:33:58,100 - DEBUG - Attempting to parse filename: .1383c381da21f04fa9c2591275d3056dd095303c.parts
+2024-03-24 17:33:58,100 - DEBUG - Skipping hidden or unmatched file: .1383c381da21f04fa9c2591275d3056dd095303c.parts
+2024-03-24 17:33:58,100 - DEBUG - Attempting to parse filename: .1b28e9d826e8bc09703d224fbf43e9b75849c244.parts
+2024-03-24 17:33:58,100 - DEBUG - Skipping hidden or unmatched file: .1b28e9d826e8bc09703d224fbf43e9b75849c244.parts
+2024-03-24 17:33:58,100 - DEBUG - Attempting to parse filename: .1c214f787f680d9503ba7043061a7625ae1646f5.parts
+2024-03-24 17:33:58,100 - DEBUG - Skipping hidden or unmatched file: .1c214f787f680d9503ba7043061a7625ae1646f5.parts
+2024-03-24 17:33:58,100 - DEBUG - Attempting to parse filename: .22afadb2d80c2919cd172fc2edd6bcd16d7c462b.parts
+2024-03-24 17:33:58,100 - DEBUG - Skipping hidden or unmatched file: .22afadb2d80c2919cd172fc2edd6bcd16d7c462b.parts
+2024-03-24 17:33:58,100 - DEBUG - Attempting to parse filename: .2944ee1bd24dfb6e41c7d0d74c78339b765e75dd.parts
+2024-03-24 17:33:58,100 - DEBUG - Skipping hidden or unmatched file: .2944ee1bd24dfb6e41c7d0d74c78339b765e75dd.parts
+2024-03-24 17:33:58,100 - DEBUG - Attempting to parse filename: .2c65ba83bfc7b817d8b0afe96c7be10e29c78d32.parts
+2024-03-24 17:33:58,100 - DEBUG - Skipping hidden or unmatched file: .2c65ba83bfc7b817d8b0afe96c7be10e29c78d32.parts
+2024-03-24 17:33:58,100 - DEBUG - Attempting to parse filename: .304547faea5d8ec0cefc0a0036320e65f1415fd8.parts
+2024-03-24 17:33:58,100 - DEBUG - Skipping hidden or unmatched file: .304547faea5d8ec0cefc0a0036320e65f1415fd8.parts
+2024-03-24 17:33:58,100 - DEBUG - Attempting to parse filename: .3320c5db6517c75e78e3eaedfcbbbca40f475b31.parts
+2024-03-24 17:33:58,100 - DEBUG - Skipping hidden or unmatched file: .3320c5db6517c75e78e3eaedfcbbbca40f475b31.parts
+2024-03-24 17:33:58,100 - DEBUG - Attempting to parse filename: .33c7f55b5931e2ad80887730bf16aaa32d6d64b0.parts
+2024-03-24 17:33:58,100 - DEBUG - Skipping hidden or unmatched file: .33c7f55b5931e2ad80887730bf16aaa32d6d64b0.parts
+2024-03-24 17:33:58,100 - DEBUG - Attempting to parse filename: .3900128a2b18d450ae231ea0412ec17d2424791e.parts
+2024-03-24 17:33:58,100 - DEBUG - Skipping hidden or unmatched file: .3900128a2b18d450ae231ea0412ec17d2424791e.parts
+2024-03-24 17:33:58,101 - DEBUG - Attempting to parse filename: .3acc300482045e17d8bcd801dd936d853c56df14.parts
+2024-03-24 17:33:58,101 - DEBUG - Skipping hidden or unmatched file: .3acc300482045e17d8bcd801dd936d853c56df14.parts
+2024-03-24 17:33:58,101 - DEBUG - Attempting to parse filename: .3b927164e079df51a75e3dc5bad2775437cf7e15.parts
+2024-03-24 17:33:58,101 - DEBUG - Skipping hidden or unmatched file: .3b927164e079df51a75e3dc5bad2775437cf7e15.parts
+2024-03-24 17:33:58,101 - DEBUG - Attempting to parse filename: .3c59aeca2b932fe4eb8bdd35665aee2b8329f6bf.parts
+2024-03-24 17:33:58,101 - DEBUG - Skipping hidden or unmatched file: .3c59aeca2b932fe4eb8bdd35665aee2b8329f6bf.parts
+2024-03-24 17:33:58,101 - DEBUG - Attempting to parse filename: .3fffcfc3b591e0759120c4a40870489bc66536a5.parts
+2024-03-24 17:33:58,101 - DEBUG - Skipping hidden or unmatched file: .3fffcfc3b591e0759120c4a40870489bc66536a5.parts
+2024-03-24 17:33:58,101 - DEBUG - Attempting to parse filename: .415f71aa93e1cc8f7211668e4bd4c583cb4a9c64.parts
+2024-03-24 17:33:58,101 - DEBUG - Skipping hidden or unmatched file: .415f71aa93e1cc8f7211668e4bd4c583cb4a9c64.parts
+2024-03-24 17:33:58,101 - DEBUG - Attempting to parse filename: .41a03b041fee8ab31b4a3da35a56b218e7d3a2bc.parts
+2024-03-24 17:33:58,101 - DEBUG - Skipping hidden or unmatched file: .41a03b041fee8ab31b4a3da35a56b218e7d3a2bc.parts
+2024-03-24 17:33:58,101 - DEBUG - Attempting to parse filename: .42ee369080f0f38bda7fe8caf3499308f14b62cb.parts
+2024-03-24 17:33:58,101 - DEBUG - Skipping hidden or unmatched file: .42ee369080f0f38bda7fe8caf3499308f14b62cb.parts
+2024-03-24 17:33:58,101 - DEBUG - Attempting to parse filename: .44b4f3646dac2386effe3ac69a2af96b81cf08eb.parts
+2024-03-24 17:33:58,101 - DEBUG - Skipping hidden or unmatched file: .44b4f3646dac2386effe3ac69a2af96b81cf08eb.parts
+2024-03-24 17:33:58,101 - DEBUG - Attempting to parse filename: .4783cd4bd084a9f207fde8abed65131e52abb0b2.parts
+2024-03-24 17:33:58,101 - DEBUG - Skipping hidden or unmatched file: .4783cd4bd084a9f207fde8abed65131e52abb0b2.parts
+2024-03-24 17:33:58,101 - DEBUG - Attempting to parse filename: .4d28a0a1cd3cb7478a9261f0cd404d548f485e3d.parts
+2024-03-24 17:33:58,101 - DEBUG - Skipping hidden or unmatched file: .4d28a0a1cd3cb7478a9261f0cd404d548f485e3d.parts
+2024-03-24 17:33:58,101 - DEBUG - Attempting to parse filename: .501f17a29795a5665ec7da429c9eab72b49740e8.parts
+2024-03-24 17:33:58,102 - DEBUG - Skipping hidden or unmatched file: .501f17a29795a5665ec7da429c9eab72b49740e8.parts
+2024-03-24 17:33:58,102 - DEBUG - Attempting to parse filename: .52609d3447edd58e208c4b7e2102203c99e34ec3.parts
+2024-03-24 17:33:58,102 - DEBUG - Skipping hidden or unmatched file: .52609d3447edd58e208c4b7e2102203c99e34ec3.parts
+2024-03-24 17:33:58,102 - DEBUG - Attempting to parse filename: .52f58c1a8e12a20d1eba064c23ff6d0e38f82b5b.parts
+2024-03-24 17:33:58,102 - DEBUG - Skipping hidden or unmatched file: .52f58c1a8e12a20d1eba064c23ff6d0e38f82b5b.parts
+2024-03-24 17:33:58,102 - DEBUG - Attempting to parse filename: .57857a251440b06ce3c409cfebd0beadd0b7dd7f.parts
+2024-03-24 17:33:58,102 - DEBUG - Skipping hidden or unmatched file: .57857a251440b06ce3c409cfebd0beadd0b7dd7f.parts
+2024-03-24 17:33:58,102 - DEBUG - Attempting to parse filename: .5bbb6583ecae90a0f53d33811b9b4f51ae18a753.parts
+2024-03-24 17:33:58,102 - DEBUG - Skipping hidden or unmatched file: .5bbb6583ecae90a0f53d33811b9b4f51ae18a753.parts
+2024-03-24 17:33:58,102 - DEBUG - Attempting to parse filename: .5c9ca3e56c12dad205f052b5fed245f83e26dd1e.parts
+2024-03-24 17:33:58,102 - DEBUG - Skipping hidden or unmatched file: .5c9ca3e56c12dad205f052b5fed245f83e26dd1e.parts
+2024-03-24 17:33:58,102 - DEBUG - Attempting to parse filename: .5ce89bc03a9ea932a0c5e7c1f949cce7bb85a431.parts
+2024-03-24 17:33:58,102 - DEBUG - Skipping hidden or unmatched file: .5ce89bc03a9ea932a0c5e7c1f949cce7bb85a431.parts
+2024-03-24 17:33:58,102 - DEBUG - Attempting to parse filename: .62a25b56180d265fba67829ca3b2baa4b747856a.parts
+2024-03-24 17:33:58,102 - DEBUG - Skipping hidden or unmatched file: .62a25b56180d265fba67829ca3b2baa4b747856a.parts
+2024-03-24 17:33:58,102 - DEBUG - Attempting to parse filename: .63ea60546554d3e8d4b63c2c921236215c9bba4b.parts
+2024-03-24 17:33:58,102 - DEBUG - Skipping hidden or unmatched file: .63ea60546554d3e8d4b63c2c921236215c9bba4b.parts
+2024-03-24 17:33:58,102 - DEBUG - Attempting to parse filename: .690dfa93a645b9f03808fd8a04f3fe702033b5e0.parts
+2024-03-24 17:33:58,102 - DEBUG - Skipping hidden or unmatched file: .690dfa93a645b9f03808fd8a04f3fe702033b5e0.parts
+2024-03-24 17:33:58,102 - DEBUG - Attempting to parse filename: .6989e29137ef90def690dd11f7ac0b1ca9f9c545.parts
+2024-03-24 17:33:58,102 - DEBUG - Skipping hidden or unmatched file: .6989e29137ef90def690dd11f7ac0b1ca9f9c545.parts
+2024-03-24 17:33:58,103 - DEBUG - Attempting to parse filename: .6a926dec92ac81e53287b5abaf4658c6771e05c0.parts
+2024-03-24 17:33:58,103 - DEBUG - Skipping hidden or unmatched file: .6a926dec92ac81e53287b5abaf4658c6771e05c0.parts
+2024-03-24 17:33:58,103 - DEBUG - Attempting to parse filename: .74d94f15808ec4a628347df54d363a7c67e809b9.parts
+2024-03-24 17:33:58,103 - DEBUG - Skipping hidden or unmatched file: .74d94f15808ec4a628347df54d363a7c67e809b9.parts
+2024-03-24 17:33:58,103 - DEBUG - Attempting to parse filename: .7e7b94784e071258e4f37a5c55bf2d9488aebfc9.parts
+2024-03-24 17:33:58,103 - DEBUG - Skipping hidden or unmatched file: .7e7b94784e071258e4f37a5c55bf2d9488aebfc9.parts
+2024-03-24 17:33:58,103 - DEBUG - Attempting to parse filename: .81b00d8e30c2c0486116c65479bc6578ff5ce142.parts
+2024-03-24 17:33:58,103 - DEBUG - Skipping hidden or unmatched file: .81b00d8e30c2c0486116c65479bc6578ff5ce142.parts
+2024-03-24 17:33:58,103 - DEBUG - Attempting to parse filename: .8271fd6462e997c5130ad1daa9ce58b1bf6d3e64.parts
+2024-03-24 17:33:58,103 - DEBUG - Skipping hidden or unmatched file: .8271fd6462e997c5130ad1daa9ce58b1bf6d3e64.parts
+2024-03-24 17:33:58,103 - DEBUG - Attempting to parse filename: .83d0fe64203f76c1a670ca836d1244b1bde5badf.parts
+2024-03-24 17:33:58,103 - DEBUG - Skipping hidden or unmatched file: .83d0fe64203f76c1a670ca836d1244b1bde5badf.parts
+2024-03-24 17:33:58,103 - DEBUG - Attempting to parse filename: .84d2ec88d8426e884a84a80eaa40018cef2471b3.parts
+2024-03-24 17:33:58,103 - DEBUG - Skipping hidden or unmatched file: .84d2ec88d8426e884a84a80eaa40018cef2471b3.parts
+2024-03-24 17:33:58,103 - DEBUG - Attempting to parse filename: .88730012885fea74b780a1621682a276040c1f98.parts
+2024-03-24 17:33:58,103 - DEBUG - Skipping hidden or unmatched file: .88730012885fea74b780a1621682a276040c1f98.parts
+2024-03-24 17:33:58,104 - DEBUG - Attempting to parse filename: .8bf94a3b5ea13889c77e022796be2c290ebeddad.parts
+2024-03-24 17:33:58,104 - DEBUG - Skipping hidden or unmatched file: .8bf94a3b5ea13889c77e022796be2c290ebeddad.parts
+2024-03-24 17:33:58,104 - DEBUG - Attempting to parse filename: .8c7641a622c885f78d4de0341353b9d1627781c0.parts
+2024-03-24 17:33:58,104 - DEBUG - Skipping hidden or unmatched file: .8c7641a622c885f78d4de0341353b9d1627781c0.parts
+2024-03-24 17:33:58,104 - DEBUG - Attempting to parse filename: .8f46430f0189925ed6f2b5a4262042ef45f9f744.parts
+2024-03-24 17:33:58,104 - DEBUG - Skipping hidden or unmatched file: .8f46430f0189925ed6f2b5a4262042ef45f9f744.parts
+2024-03-24 17:33:58,104 - DEBUG - Attempting to parse filename: .93ae5decb88262e11108e85597bb3f5d80844fc2.parts
+2024-03-24 17:33:58,104 - DEBUG - Skipping hidden or unmatched file: .93ae5decb88262e11108e85597bb3f5d80844fc2.parts
+2024-03-24 17:33:58,104 - DEBUG - Attempting to parse filename: .96a06fe7231a522d390f1b17a4a857c145d3acbc.parts
+2024-03-24 17:33:58,104 - DEBUG - Skipping hidden or unmatched file: .96a06fe7231a522d390f1b17a4a857c145d3acbc.parts
+2024-03-24 17:33:58,104 - DEBUG - Attempting to parse filename: .9ae33adc2438e77bc92b1b92bef08a79ace3294a.parts
+2024-03-24 17:33:58,104 - DEBUG - Skipping hidden or unmatched file: .9ae33adc2438e77bc92b1b92bef08a79ace3294a.parts
+2024-03-24 17:33:58,104 - DEBUG - Attempting to parse filename: .9b2cbeff09e1eefe951d5a24283b7c0c5b2cefe4.parts
+2024-03-24 17:33:58,104 - DEBUG - Skipping hidden or unmatched file: .9b2cbeff09e1eefe951d5a24283b7c0c5b2cefe4.parts
+2024-03-24 17:33:58,104 - DEBUG - Attempting to parse filename: .9d45c82603e0a80a0329e85d5ecd97656bc67eb7.parts
+2024-03-24 17:33:58,105 - DEBUG - Skipping hidden or unmatched file: .9d45c82603e0a80a0329e85d5ecd97656bc67eb7.parts
+2024-03-24 17:33:58,105 - DEBUG - Attempting to parse filename: .9f9a454a664f157ea3246fa43e9209d745a56cc1.parts
+2024-03-24 17:33:58,105 - DEBUG - Skipping hidden or unmatched file: .9f9a454a664f157ea3246fa43e9209d745a56cc1.parts
+2024-03-24 17:33:58,105 - DEBUG - Attempting to parse filename: .a582dc71162d9ef480258bedc2abaa9321982c65.parts
+2024-03-24 17:33:58,105 - DEBUG - Skipping hidden or unmatched file: .a582dc71162d9ef480258bedc2abaa9321982c65.parts
+2024-03-24 17:33:58,105 - DEBUG - Attempting to parse filename: .a5edb37e5f2a71e0c0231a69eafb6880acbdbc4d.parts
+2024-03-24 17:33:58,105 - DEBUG - Skipping hidden or unmatched file: .a5edb37e5f2a71e0c0231a69eafb6880acbdbc4d.parts
+2024-03-24 17:33:58,105 - DEBUG - Attempting to parse filename: .a737aac426ffa0a5ff28dde2e8f60fc1e1b2f096.parts
+2024-03-24 17:33:58,105 - DEBUG - Skipping hidden or unmatched file: .a737aac426ffa0a5ff28dde2e8f60fc1e1b2f096.parts
+2024-03-24 17:33:58,105 - DEBUG - Attempting to parse filename: .aa9890ecbf085bd57672a4704a2d30aad588b7c1.parts
+2024-03-24 17:33:58,105 - DEBUG - Skipping hidden or unmatched file: .aa9890ecbf085bd57672a4704a2d30aad588b7c1.parts
+2024-03-24 17:33:58,105 - DEBUG - Attempting to parse filename: .b055cd611972009c6216ae8a11c9186b7670862a.parts
+2024-03-24 17:33:58,105 - DEBUG - Skipping hidden or unmatched file: .b055cd611972009c6216ae8a11c9186b7670862a.parts
+2024-03-24 17:33:58,105 - DEBUG - Attempting to parse filename: .b23f96796640f7b2bfb6c0b678bc5b7825f679de.parts
+2024-03-24 17:33:58,105 - DEBUG - Skipping hidden or unmatched file: .b23f96796640f7b2bfb6c0b678bc5b7825f679de.parts
+2024-03-24 17:33:58,105 - DEBUG - Attempting to parse filename: .bd90cb852e8ba060ccfe932948f0eab6354da318.parts
+2024-03-24 17:33:58,105 - DEBUG - Skipping hidden or unmatched file: .bd90cb852e8ba060ccfe932948f0eab6354da318.parts
+2024-03-24 17:33:58,106 - DEBUG - Attempting to parse filename: .c23d8100892f09dbf9fd5642654123e37b49ca7b.parts
+2024-03-24 17:33:58,106 - DEBUG - Skipping hidden or unmatched file: .c23d8100892f09dbf9fd5642654123e37b49ca7b.parts
+2024-03-24 17:33:58,106 - DEBUG - Attempting to parse filename: .c6197c462a8b0c81a164643078cb424fd1bac4f2.parts
+2024-03-24 17:33:58,106 - DEBUG - Skipping hidden or unmatched file: .c6197c462a8b0c81a164643078cb424fd1bac4f2.parts
+2024-03-24 17:33:58,106 - DEBUG - Attempting to parse filename: .c67a8812c4bc5ca88af04af3ce1abaea9a7ae9f4.parts
+2024-03-24 17:33:58,106 - DEBUG - Skipping hidden or unmatched file: .c67a8812c4bc5ca88af04af3ce1abaea9a7ae9f4.parts
+2024-03-24 17:33:58,106 - DEBUG - Attempting to parse filename: .cb6b00ea38797d1d05b07401020e4948dcdc6a24.parts
+2024-03-24 17:33:58,106 - DEBUG - Skipping hidden or unmatched file: .cb6b00ea38797d1d05b07401020e4948dcdc6a24.parts
+2024-03-24 17:33:58,106 - DEBUG - Attempting to parse filename: .cf2c993ddcf94099d15ab34f74b71c6ee277a381.parts
+2024-03-24 17:33:58,106 - DEBUG - Skipping hidden or unmatched file: .cf2c993ddcf94099d15ab34f74b71c6ee277a381.parts
+2024-03-24 17:33:58,106 - DEBUG - Attempting to parse filename: .d3ea2940b9da975a94de75cb74e8d753ddcba399.parts
+2024-03-24 17:33:58,106 - DEBUG - Skipping hidden or unmatched file: .d3ea2940b9da975a94de75cb74e8d753ddcba399.parts
+2024-03-24 17:33:58,106 - DEBUG - Attempting to parse filename: .d57d89d40a097abc4538c075dd210042a9d7bb91.parts
+2024-03-24 17:33:58,106 - DEBUG - Skipping hidden or unmatched file: .d57d89d40a097abc4538c075dd210042a9d7bb91.parts
+2024-03-24 17:33:58,106 - DEBUG - Attempting to parse filename: .e1b7dd95ba2e8fb0e87f4b8c0cf1b9a36e4224a6.parts
+2024-03-24 17:33:58,106 - DEBUG - Skipping hidden or unmatched file: .e1b7dd95ba2e8fb0e87f4b8c0cf1b9a36e4224a6.parts
+2024-03-24 17:33:58,106 - DEBUG - Attempting to parse filename: .e8535c62a3ec3c0e7f3f1138e949e2954bc9a487.parts
+2024-03-24 17:33:58,106 - DEBUG - Skipping hidden or unmatched file: .e8535c62a3ec3c0e7f3f1138e949e2954bc9a487.parts
+2024-03-24 17:33:58,106 - DEBUG - Attempting to parse filename: .ece9a56004043d3177031e09b11afeddb11872da.parts
+2024-03-24 17:33:58,106 - DEBUG - Skipping hidden or unmatched file: .ece9a56004043d3177031e09b11afeddb11872da.parts
+2024-03-24 17:33:58,106 - DEBUG - Attempting to parse filename: .f103b7b3b382916c6b8fd55e1f00782476fdb0f8.parts
+2024-03-24 17:33:58,107 - DEBUG - Skipping hidden or unmatched file: .f103b7b3b382916c6b8fd55e1f00782476fdb0f8.parts
+2024-03-24 17:33:58,107 - DEBUG - Attempting to parse filename: .f2b0095d25e8090e545da4b0025a35952ed199e9.parts
+2024-03-24 17:33:58,107 - DEBUG - Skipping hidden or unmatched file: .f2b0095d25e8090e545da4b0025a35952ed199e9.parts
+2024-03-24 17:33:58,107 - DEBUG - Attempting to parse filename: .f42b76984e6ddeaeb79192afdd203ea986c7a716.parts
+2024-03-24 17:33:58,107 - DEBUG - Skipping hidden or unmatched file: .f42b76984e6ddeaeb79192afdd203ea986c7a716.parts
+2024-03-24 17:33:58,107 - DEBUG - Attempting to parse filename: .f62649fee0f8da24f4b6797d70829330342aa49d.parts
+2024-03-24 17:33:58,107 - DEBUG - Skipping hidden or unmatched file: .f62649fee0f8da24f4b6797d70829330342aa49d.parts
+2024-03-24 17:33:58,108 - DEBUG - Attempting to parse filename: .fbaeae8acceee88a01cb43164bb8147c23e9d560.parts
+2024-03-24 17:33:58,108 - DEBUG - Skipping hidden or unmatched file: .fbaeae8acceee88a01cb43164bb8147c23e9d560.parts
+2024-03-24 17:33:58,108 - DEBUG - Attempting to parse filename: .fca2e0e77c1f2f0f587d33ac83336d3c090d744e.parts
+2024-03-24 17:33:58,108 - DEBUG - Skipping hidden or unmatched file: .fca2e0e77c1f2f0f587d33ac83336d3c090d744e.parts
+2024-03-24 17:33:58,108 - DEBUG - Attempting to parse filename: .fde209f29f5364ab4a55c8ad9ad663e61cf1ff55.parts
+2024-03-24 17:33:58,108 - DEBUG - Skipping hidden or unmatched file: .fde209f29f5364ab4a55c8ad9ad663e61cf1ff55.parts
+2024-03-24 17:33:58,108 - DEBUG - Attempting to parse filename: .fe24b11b2b7c50caaa2f855938cac66ea8c8d8eb.parts
+2024-03-24 17:33:58,108 - DEBUG - Skipping hidden or unmatched file: .fe24b11b2b7c50caaa2f855938cac66ea8c8d8eb.parts
+2024-03-24 17:33:58,108 - DEBUG - Attempting to parse filename: 1408.2007.DC.1080p.BluRay.x265-RARBG.mp4
+2024-03-24 17:33:58,108 - DEBUG - Extracted title: , year: 1408 from filename: 1408.2007.DC.1080p.BluRay.x265-RARBG.mp4
+2024-03-24 17:33:58,108 - DEBUG - Attempting to parse filename: 1408.2007.DC.1080p.BluRay.x265-RARBG.srt
+2024-03-24 17:33:58,108 - DEBUG - Extracted title: , year: 1408 from filename: 1408.2007.DC.1080p.BluRay.x265-RARBG.srt
+2024-03-24 17:33:58,108 - DEBUG - Attempting to parse filename: The Babysitters (2007).mp4
+2024-03-24 17:33:58,109 - DEBUG - Filename does not match pattern: The Babysitters (2007).mp4
+2024-03-24 17:33:58,109 - DEBUG - Attempting to parse filename: 3 10 to Yuma (2007).mp4
+2024-03-24 17:33:58,109 - DEBUG - Filename does not match pattern: 3 10 to Yuma (2007).mp4
+2024-03-24 17:33:58,109 - DEBUG - Attempting to parse filename: 3 10 to Yuma (2007).srt
+2024-03-24 17:33:58,109 - DEBUG - Filename does not match pattern: 3 10 to Yuma (2007).srt
+2024-03-24 17:33:58,109 - DEBUG - Attempting to parse filename: American Gangster (2007).mp4
+2024-03-24 17:33:58,109 - DEBUG - Filename does not match pattern: American Gangster (2007).mp4
+2024-03-24 17:33:58,109 - DEBUG - Attempting to parse filename: American Gangster (2007).srt
+2024-03-24 17:33:58,109 - DEBUG - Filename does not match pattern: American Gangster (2007).srt
+2024-03-24 17:33:58,109 - DEBUG - Attempting to parse filename: Beowulf (2007).mkv
+2024-03-24 17:33:58,110 - DEBUG - Filename does not match pattern: Beowulf (2007).mkv
+2024-03-24 17:33:58,110 - DEBUG - Attempting to parse filename: Blades of Glory (2007).mp4
+2024-03-24 17:33:58,110 - DEBUG - Filename does not match pattern: Blades of Glory (2007).mp4
+2024-03-24 17:33:58,110 - DEBUG - Attempting to parse filename: Blades of Glory (2007).srt
+2024-03-24 17:33:58,110 - DEBUG - Filename does not match pattern: Blades of Glory (2007).srt
+2024-03-24 17:33:58,110 - DEBUG - Attempting to parse filename: Funny Games (2007).mkv
+2024-03-24 17:33:58,110 - DEBUG - Filename does not match pattern: Funny Games (2007).mkv
+2024-03-24 17:33:58,110 - DEBUG - Attempting to parse filename: Ghost Rider (2007).mkv
+2024-03-24 17:33:58,110 - DEBUG - Filename does not match pattern: Ghost Rider (2007).mkv
+2024-03-24 17:33:58,111 - DEBUG - Attempting to parse filename: Grindhouse Planet Terror (2007).mkv
+2024-03-24 17:33:58,111 - DEBUG - Filename does not match pattern: Grindhouse Planet Terror (2007).mkv
+2024-03-24 17:33:58,111 - DEBUG - Attempting to parse filename: Grindhouse Planet Terror (2007).nfo
+2024-03-24 17:33:58,111 - DEBUG - Filename does not match pattern: Grindhouse Planet Terror (2007).nfo
+2024-03-24 17:33:58,111 - DEBUG - Attempting to parse filename: Hot Fuzz (2007).mp4
+2024-03-24 17:33:58,111 - DEBUG - Filename does not match pattern: Hot Fuzz (2007).mp4
+2024-03-24 17:33:58,111 - DEBUG - Attempting to parse filename: Hot Fuzz (2007).srt
+2024-03-24 17:33:58,111 - DEBUG - Filename does not match pattern: Hot Fuzz (2007).srt
+2024-03-24 17:33:58,111 - DEBUG - Attempting to parse filename: I Am Legend (2007).mkv
+2024-03-24 17:33:58,111 - DEBUG - Filename does not match pattern: I Am Legend (2007).mkv
+2024-03-24 17:33:58,112 - DEBUG - Attempting to parse filename: Little Man (2006).mp4
+2024-03-24 17:33:58,112 - DEBUG - Filename does not match pattern: Little Man (2006).mp4
+2024-03-24 17:33:58,112 - DEBUG - Attempting to parse filename: Little Man (2006).srt
+2024-03-24 17:33:58,112 - DEBUG - Filename does not match pattern: Little Man (2006).srt
+2024-03-24 17:33:58,112 - DEBUG - Attempting to parse filename: Quiet on Set The Dark Side of Kids TV - S01E01 - Rising Stars, Rising Questions.mkv
+2024-03-24 17:33:58,112 - DEBUG - Skipping hidden or unmatched file: Quiet on Set The Dark Side of Kids TV - S01E01 - Rising Stars, Rising Questions.mkv
+2024-03-24 17:33:58,112 - DEBUG - Attempting to parse filename: Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight.mkv
+2024-03-24 17:33:58,112 - DEBUG - Skipping hidden or unmatched file: Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight.mkv
+2024-03-24 17:33:58,112 - DEBUG - Attempting to parse filename: Quiet on Set The Dark Side of Kids TV - S01E03 - The Darkest Secret.mkv
+2024-03-24 17:33:58,112 - DEBUG - Skipping hidden or unmatched file: Quiet on Set The Dark Side of Kids TV - S01E03 - The Darkest Secret.mkv
+2024-03-24 17:33:58,112 - DEBUG - Attempting to parse filename: Quiet on Set The Dark Side of Kids TV - S01E04 - Too Close to the Sun.mkv
+2024-03-24 17:33:58,112 - DEBUG - Skipping hidden or unmatched file: Quiet on Set The Dark Side of Kids TV - S01E04 - Too Close to the Sun.mkv
+2024-03-24 17:33:58,113 - DEBUG - Attempting to parse filename: Sweeney Todd - Il diabolico barbiere di Fleet Street - The Demon Barber of Fleet Street (2007) AC3 5.1 ITA.ENG 1080p H265 sub ita.eng Sp33dy94-MIRCrew.mkv
+2024-03-24 17:33:58,113 - DEBUG - Filename does not match pattern: Sweeney Todd - Il diabolico barbiere di Fleet Street - The Demon Barber of Fleet Street (2007) AC3 5.1 ITA.ENG 1080p H265 sub ita.eng Sp33dy94-MIRCrew.mkv
+2024-03-24 17:33:58,113 - DEBUG - Attempting to parse filename: The Break Up (2007).mp4
+2024-03-24 17:33:58,113 - DEBUG - Filename does not match pattern: The Break Up (2007).mp4
+2024-03-24 17:33:58,113 - DEBUG - Attempting to parse filename: The Break Up (2007).srt
+2024-03-24 17:33:58,113 - DEBUG - Filename does not match pattern: The Break Up (2007).srt
+2024-03-24 17:33:58,113 - DEBUG - Attempting to parse filename: The Omen (2006).mp4
+2024-03-24 17:33:58,113 - DEBUG - Filename does not match pattern: The Omen (2006).mp4
+2024-03-24 17:33:58,113 - DEBUG - Attempting to parse filename: The Omen (2006).srt
+2024-03-24 17:33:58,114 - DEBUG - Filename does not match pattern: The Omen (2006).srt
+2024-03-24 17:33:58,114 - DEBUG - Attempting to parse filename: We Are Marshall (2006).mkv
+2024-03-24 17:33:58,114 - DEBUG - Filename does not match pattern: We Are Marshall (2006).mkv
+2024-03-24 17:33:58,114 - DEBUG - Attempting to parse filename: Why Did I Get Married (2007).mkv
+2024-03-24 17:33:58,114 - DEBUG - Filename does not match pattern: Why Did I Get Married (2007).mkv
+2024-03-24 17:34:00,510 - INFO - Subtitles and NFO files moved and renamed.
+2024-03-24 17:34:00,510 - INFO - Starting folder renaming based on movie names.
+2024-03-24 17:34:00,512 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Quiet on Set- The Dark Side of Kids TV (2024)\Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight
+2024-03-24 17:34:00,512 - DEBUG - Attempting to parse filename: Quiet on Set The Dark Side of Kids TV - S01E01 - Rising Stars, Rising Questions.mkv
+2024-03-24 17:34:00,512 - DEBUG - Skipping hidden or unmatched file: Quiet on Set The Dark Side of Kids TV - S01E01 - Rising Stars, Rising Questions.mkv
+2024-03-24 17:34:00,512 - DEBUG - Attempting to parse filename: Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight.mkv
+2024-03-24 17:34:00,512 - DEBUG - Skipping hidden or unmatched file: Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight.mkv
+2024-03-24 17:34:00,512 - DEBUG - Attempting to parse filename: Quiet on Set The Dark Side of Kids TV - S01E03 - The Darkest Secret.mkv
+2024-03-24 17:34:00,512 - DEBUG - Skipping hidden or unmatched file: Quiet on Set The Dark Side of Kids TV - S01E03 - The Darkest Secret.mkv
+2024-03-24 17:34:00,512 - DEBUG - Attempting to parse filename: Quiet on Set The Dark Side of Kids TV - S01E04 - Too Close to the Sun.mkv
+2024-03-24 17:34:00,512 - DEBUG - Skipping hidden or unmatched file: Quiet on Set The Dark Side of Kids TV - S01E04 - Too Close to the Sun.mkv
+2024-03-24 17:34:00,512 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Quiet on Set- The Dark Side of Kids TV (2024)\Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight for renaming.
+2024-03-24 17:34:00,513 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\1408.2007.DC.1080p.BluRay.x265-RARBG
+2024-03-24 17:34:00,513 - DEBUG - Attempting to parse filename: 1408.2007.DC.1080p.BluRay.x265-RARBG.mp4
+2024-03-24 17:34:00,513 - DEBUG - Extracted title: , year: 1408 from filename: 1408.2007.DC.1080p.BluRay.x265-RARBG.mp4
+2024-03-24 17:34:00,513 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\1408.2007.DC.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:34:00,513 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\18+.The.Babysitters.2007.1080p.BluRay.x264.LLG
+2024-03-24 17:34:00,513 - DEBUG - Attempting to parse filename: The Babysitters (2007).mp4
+2024-03-24 17:34:00,513 - DEBUG - Filename does not match pattern: The Babysitters (2007).mp4
+2024-03-24 17:34:00,513 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\18+.The.Babysitters.2007.1080p.BluRay.x264.LLG for renaming.
+2024-03-24 17:34:00,513 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\3.10.to.Yuma.2007.PROPER.1080p.BluRay.x265-RARBG
+2024-03-24 17:34:00,513 - DEBUG - Attempting to parse filename: 3 10 to Yuma (2007).mp4
+2024-03-24 17:34:00,513 - DEBUG - Filename does not match pattern: 3 10 to Yuma (2007).mp4
+2024-03-24 17:34:00,514 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\3.10.to.Yuma.2007.PROPER.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:34:00,514 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\American.Gangster.2007.EXTENDED.REMASTERED.PROPER.1080p.BluRay.x265-RARBG
+2024-03-24 17:34:00,514 - DEBUG - Attempting to parse filename: American Gangster (2007).mp4
+2024-03-24 17:34:00,514 - DEBUG - Filename does not match pattern: American Gangster (2007).mp4
+2024-03-24 17:34:00,514 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\American.Gangster.2007.EXTENDED.REMASTERED.PROPER.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:34:00,514 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Beowulf.2007.720p.WEBRip.800MB.x264-GalaxyRG
+2024-03-24 17:34:00,514 - DEBUG - Attempting to parse filename: Beowulf (2007).mkv
+2024-03-24 17:34:00,514 - DEBUG - Filename does not match pattern: Beowulf (2007).mkv
+2024-03-24 17:34:00,514 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Beowulf.2007.720p.WEBRip.800MB.x264-GalaxyRG for renaming.
+2024-03-24 17:34:00,514 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Blades.of.Glory.2007.PROPER.1080p.BluRay.H264.AAC-RARBG
+2024-03-24 17:34:00,514 - DEBUG - Attempting to parse filename: Blades of Glory (2007).mp4
+2024-03-24 17:34:00,514 - DEBUG - Filename does not match pattern: Blades of Glory (2007).mp4
+2024-03-24 17:34:00,514 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Blades.of.Glory.2007.PROPER.1080p.BluRay.H264.AAC-RARBG for renaming.
+2024-03-24 17:34:00,514 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Funny.Games.2007.iNTERNAL.BDRip.x264-MARS
+2024-03-24 17:34:00,515 - DEBUG - Attempting to parse filename: Funny Games (2007).mkv
+2024-03-24 17:34:00,515 - DEBUG - Filename does not match pattern: Funny Games (2007).mkv
+2024-03-24 17:34:00,515 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Funny.Games.2007.iNTERNAL.BDRip.x264-MARS for renaming.
+2024-03-24 17:34:00,515 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Ghost.Rider.2007.Extended.1080p.BluRay.DDP.5.1.H.265-EDGE2020
+2024-03-24 17:34:00,515 - DEBUG - Attempting to parse filename: Ghost Rider (2007).mkv
+2024-03-24 17:34:00,515 - DEBUG - Filename does not match pattern: Ghost Rider (2007).mkv
+2024-03-24 17:34:00,515 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Ghost.Rider.2007.Extended.1080p.BluRay.DDP.5.1.H.265-EDGE2020 for renaming.
+2024-03-24 17:34:00,515 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Grindhouse.Planet.Terror.2007.1080p.BluRay.x264-OFT
+2024-03-24 17:34:00,515 - DEBUG - Attempting to parse filename: Grindhouse Planet Terror (2007).mkv
+2024-03-24 17:34:00,515 - DEBUG - Filename does not match pattern: Grindhouse Planet Terror (2007).mkv
+2024-03-24 17:34:00,515 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Grindhouse.Planet.Terror.2007.1080p.BluRay.x264-OFT for renaming.
+2024-03-24 17:34:00,515 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Hot.Fuzz.2007.REMASTERED.PROPER.1080p.BluRay.x265-RARBG
+2024-03-24 17:34:00,515 - DEBUG - Attempting to parse filename: Hot Fuzz (2007).mp4
+2024-03-24 17:34:00,516 - DEBUG - Filename does not match pattern: Hot Fuzz (2007).mp4
+2024-03-24 17:34:00,516 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Hot.Fuzz.2007.REMASTERED.PROPER.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:34:00,516 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\I.Am.Legend.2007.Theatrical.Cut.PROPER.1080p.BluRay.AV1.Opus.5.1-Retr0
+2024-03-24 17:34:00,516 - DEBUG - Attempting to parse filename: I Am Legend (2007).mkv
+2024-03-24 17:34:00,516 - DEBUG - Filename does not match pattern: I Am Legend (2007).mkv
+2024-03-24 17:34:00,516 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\I.Am.Legend.2007.Theatrical.Cut.PROPER.1080p.BluRay.AV1.Opus.5.1-Retr0 for renaming.
+2024-03-24 17:34:00,516 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Little.Man.2006.1080p.BluRay.x265-RARBG
+2024-03-24 17:34:00,516 - DEBUG - Attempting to parse filename: Little Man (2006).mp4
+2024-03-24 17:34:00,516 - DEBUG - Filename does not match pattern: Little Man (2006).mp4
+2024-03-24 17:34:00,516 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Little.Man.2006.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:34:00,516 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Quiet on Set- The Dark Side of Kids TV (2024)
+2024-03-24 17:34:00,517 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Quiet on Set- The Dark Side of Kids TV (2024) for renaming.
+2024-03-24 17:34:00,517 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Sweeney Todd - Il diabolico barbiere di Fleet Street - The Demon Barber of Fleet Street (2007) AC3 5.1 ITA.ENG 1080p H265 sub ita.eng Sp33dy94-MIRCrew
+2024-03-24 17:34:00,517 - DEBUG - Attempting to parse filename: Sweeney Todd - Il diabolico barbiere di Fleet Street - The Demon Barber of Fleet Street (2007) AC3 5.1 ITA.ENG 1080p H265 sub ita.eng Sp33dy94-MIRCrew.mkv
+2024-03-24 17:34:00,517 - DEBUG - Filename does not match pattern: Sweeney Todd - Il diabolico barbiere di Fleet Street - The Demon Barber of Fleet Street (2007) AC3 5.1 ITA.ENG 1080p H265 sub ita.eng Sp33dy94-MIRCrew.mkv
+2024-03-24 17:34:00,517 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Sweeney Todd - Il diabolico barbiere di Fleet Street - The Demon Barber of Fleet Street (2007) AC3 5.1 ITA.ENG 1080p H265 sub ita.eng Sp33dy94-MIRCrew for renaming.
+2024-03-24 17:34:00,517 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\The.Break.Up.2007.1080p.BluRay.H264.AAC-RARBG
+2024-03-24 17:34:00,517 - DEBUG - Attempting to parse filename: The Break Up (2007).mp4
+2024-03-24 17:34:00,517 - DEBUG - Filename does not match pattern: The Break Up (2007).mp4
+2024-03-24 17:34:00,517 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\The.Break.Up.2007.1080p.BluRay.H264.AAC-RARBG for renaming.
+2024-03-24 17:34:00,517 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\The.Omen.2006.UNCUT.1080p.BluRay.H264.AAC-RARBG
+2024-03-24 17:34:00,518 - DEBUG - Attempting to parse filename: The Omen (2006).mp4
+2024-03-24 17:34:00,518 - DEBUG - Filename does not match pattern: The Omen (2006).mp4
+2024-03-24 17:34:00,518 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\The.Omen.2006.UNCUT.1080p.BluRay.H264.AAC-RARBG for renaming.
+2024-03-24 17:34:00,518 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\We.Are.Marshall.2006.TUBI.WEB-DL.AAC.2.0.H.264-PiRaTeS
+2024-03-24 17:34:00,518 - DEBUG - Attempting to parse filename: We Are Marshall (2006).mkv
+2024-03-24 17:34:00,518 - DEBUG - Filename does not match pattern: We Are Marshall (2006).mkv
+2024-03-24 17:34:00,518 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\We.Are.Marshall.2006.TUBI.WEB-DL.AAC.2.0.H.264-PiRaTeS for renaming.
+2024-03-24 17:34:00,518 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Why.Did.I.Get.Married.2007.TUBI.WEB-DL.AAC.2.0.H.264-PiRaTeS
+2024-03-24 17:34:00,518 - DEBUG - Attempting to parse filename: Why Did I Get Married (2007).mkv
+2024-03-24 17:34:00,519 - DEBUG - Filename does not match pattern: Why Did I Get Married (2007).mkv
+2024-03-24 17:34:00,519 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Why.Did.I.Get.Married.2007.TUBI.WEB-DL.AAC.2.0.H.264-PiRaTeS for renaming.
+2024-03-24 17:34:00,519 - INFO - Movie folders renamed based on current movies, regardless of this run's renaming.
+2024-03-24 17:34:00,519 - INFO - Script finished successfully

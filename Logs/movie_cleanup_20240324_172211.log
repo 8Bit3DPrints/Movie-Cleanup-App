@@ -1,0 +1,6 @@
+2024-03-24 17:22:11,048 - INFO - Deleted old log file: C:\Users\joshu\OneDrive\Desktop\Movie Cleanup App\Logs\movie_cleanup_20240324_135542.log
+2024-03-24 17:22:11,048 - INFO - Script started
+2024-03-24 17:22:11,051 - INFO - Files organized into folders.
+2024-03-24 17:22:11,054 - INFO - Unwanted files cleaned.
+2024-03-24 17:22:14,073 - INFO - Subtitles and NFO files moved and renamed.
+2024-03-24 17:22:14,073 - ERROR - An unexpected error occurred: rename_folders_to_match_movies() missing 1 required positional argument: 'movie_extensions'

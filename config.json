@@ -1,0 +1,6 @@
+{
+  "movies_directory": "C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review",
+  "unwanted_extensions": [".dat", ".exe", ".txt", ".png", ".jpg"],
+  "subtitle_folder_names": ["Sub", "Subs", "Subtitles", "SUB", "SUBS", "SUBTITLES", "subtitle", "subtitles"],
+  "movie_extensions": [".mp4", ".mkv", ".mov", ".avi"]
+}

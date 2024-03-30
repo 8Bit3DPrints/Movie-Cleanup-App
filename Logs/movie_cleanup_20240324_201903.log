@@ -1,0 +1,21 @@
+2024-03-24 20:19:03,138 - INFO - Deleted old log file: C:\Users\joshu\OneDrive\Desktop\Movie Cleanup App\Logs\movie_cleanup_20240324_163248.log
+2024-03-24 20:19:03,138 - INFO - Script started
+2024-03-24 20:19:03,159 - INFO - Renamed folder: Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight to Quiet on Set The Dark Side of Kids TV - S01E01 - Rising Stars, Rising Questions
+2024-03-24 20:19:03,160 - ERROR - Error renaming folder Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight to Quiet on Set The Dark Side of Kids TV - S01E03 - The Darkest Secret: [WinError 2] The system cannot find the file specified: 'C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\\Quiet on Set- The Dark Side of Kids TV (2024)\\Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight' -> 'C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\\Quiet on Set- The Dark Side of Kids TV (2024)\\Quiet on Set The Dark Side of Kids TV - S01E03 - The Darkest Secret'
+2024-03-24 20:19:03,161 - ERROR - Error renaming folder Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight to Quiet on Set The Dark Side of Kids TV - S01E04 - Too Close to the Sun: [WinError 2] The system cannot find the file specified: 'C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\\Quiet on Set- The Dark Side of Kids TV (2024)\\Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight' -> 'C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\\Quiet on Set- The Dark Side of Kids TV (2024)\\Quiet on Set The Dark Side of Kids TV - S01E04 - Too Close to the Sun'
+2024-03-24 20:19:03,163 - INFO - Renamed folder: 18+.The.Babysitters.2007.1080p.BluRay.x264.LLG to The Babysitters (2007)
+2024-03-24 20:19:03,164 - INFO - Renamed folder: 3.10.to.Yuma.2007.PROPER.1080p.BluRay.x265-RARBG to 3 10 to Yuma (2007)
+2024-03-24 20:19:03,166 - INFO - Renamed folder: American.Gangster.2007.EXTENDED.REMASTERED.PROPER.1080p.BluRay.x265-RARBG to American Gangster (2007)
+2024-03-24 20:19:03,167 - INFO - Renamed folder: Beowulf.2007.720p.WEBRip.800MB.x264-GalaxyRG to Beowulf (2007)
+2024-03-24 20:19:03,171 - INFO - Renamed folder: Blades.of.Glory.2007.PROPER.1080p.BluRay.H264.AAC-RARBG to Blades of Glory (2007)
+2024-03-24 20:19:03,172 - INFO - Renamed folder: Funny.Games.2007.iNTERNAL.BDRip.x264-MARS to Funny Games (2007)
+2024-03-24 20:19:03,174 - INFO - Renamed folder: Ghost.Rider.2007.Extended.1080p.BluRay.DDP.5.1.H.265-EDGE2020 to Ghost Rider (2007)
+2024-03-24 20:19:03,176 - INFO - Renamed folder: Grindhouse.Planet.Terror.2007.1080p.BluRay.x264-OFT to Grindhouse Planet Terror (2007)
+2024-03-24 20:19:03,177 - INFO - Renamed folder: Hot.Fuzz.2007.REMASTERED.PROPER.1080p.BluRay.x265-RARBG to Hot Fuzz (2007)
+2024-03-24 20:19:03,178 - INFO - Renamed folder: I.Am.Legend.2007.Theatrical.Cut.PROPER.1080p.BluRay.AV1.Opus.5.1-Retr0 to I Am Legend (2007)
+2024-03-24 20:19:03,179 - INFO - Renamed folder: Little.Man.2006.1080p.BluRay.x265-RARBG to Little Man (2006)
+2024-03-24 20:19:03,180 - INFO - Renamed folder: The.Break.Up.2007.1080p.BluRay.H264.AAC-RARBG to The Break Up (2007)
+2024-03-24 20:19:03,181 - INFO - Renamed folder: The.Omen.2006.UNCUT.1080p.BluRay.H264.AAC-RARBG to The Omen (2006)
+2024-03-24 20:19:03,182 - INFO - Renamed folder: We.Are.Marshall.2006.TUBI.WEB-DL.AAC.2.0.H.264-PiRaTeS to We Are Marshall (2006)
+2024-03-24 20:19:03,184 - INFO - Renamed folder: Why.Did.I.Get.Married.2007.TUBI.WEB-DL.AAC.2.0.H.264-PiRaTeS to Why Did I Get Married (2007)
+2024-03-24 20:19:03,184 - INFO - Script finished successfully

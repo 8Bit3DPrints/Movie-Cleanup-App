@@ -1,0 +1,58 @@
+2024-03-24 17:12:48,267 - INFO - Deleted old log file: C:\Users\joshu\OneDrive\Desktop\Movie Cleanup App\Logs\movie_cleanup_20240320_180622.log
+2024-03-24 17:12:48,267 - INFO - Script started
+2024-03-24 17:12:48,270 - INFO - Files organized into folders.
+2024-03-24 17:12:48,274 - INFO - Unwanted files cleaned.
+2024-03-24 17:12:51,884 - INFO - Subtitles and NFO files moved and renamed.
+2024-03-24 17:12:51,884 - INFO - Starting folder renaming based on movie names.
+2024-03-24 17:12:51,885 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Quiet on Set- The Dark Side of Kids TV (2024)\Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight
+2024-03-24 17:12:51,886 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Quiet on Set- The Dark Side of Kids TV (2024)\Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight for renaming.
+2024-03-24 17:12:51,886 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Quiet on Set- The Dark Side of Kids TV (2024)\Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight for renaming.
+2024-03-24 17:12:51,886 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Quiet on Set- The Dark Side of Kids TV (2024)\Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight for renaming.
+2024-03-24 17:12:51,886 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Quiet on Set- The Dark Side of Kids TV (2024)\Quiet on Set The Dark Side of Kids TV - S01E02 - Hidden in Plain Sight for renaming.
+2024-03-24 17:12:51,886 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\1408.2007.DC.1080p.BluRay.x265-RARBG
+2024-03-24 17:12:51,886 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\1408.2007.DC.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:12:51,887 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\1408.2007.DC.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:12:51,887 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\18+.The.Babysitters.2007.1080p.BluRay.x264.LLG
+2024-03-24 17:12:51,887 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\18+.The.Babysitters.2007.1080p.BluRay.x264.LLG for renaming.
+2024-03-24 17:12:51,887 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\3.10.to.Yuma.2007.PROPER.1080p.BluRay.x265-RARBG
+2024-03-24 17:12:51,887 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\3.10.to.Yuma.2007.PROPER.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:12:51,887 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\3.10.to.Yuma.2007.PROPER.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:12:51,887 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\American.Gangster.2007.EXTENDED.REMASTERED.PROPER.1080p.BluRay.x265-RARBG
+2024-03-24 17:12:51,887 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\American.Gangster.2007.EXTENDED.REMASTERED.PROPER.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:12:51,887 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\American.Gangster.2007.EXTENDED.REMASTERED.PROPER.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:12:51,887 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Beowulf.2007.720p.WEBRip.800MB.x264-GalaxyRG
+2024-03-24 17:12:51,888 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Beowulf.2007.720p.WEBRip.800MB.x264-GalaxyRG for renaming.
+2024-03-24 17:12:51,888 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Blades.of.Glory.2007.PROPER.1080p.BluRay.H264.AAC-RARBG
+2024-03-24 17:12:51,888 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Blades.of.Glory.2007.PROPER.1080p.BluRay.H264.AAC-RARBG for renaming.
+2024-03-24 17:12:51,888 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Blades.of.Glory.2007.PROPER.1080p.BluRay.H264.AAC-RARBG for renaming.
+2024-03-24 17:12:51,888 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Funny.Games.2007.iNTERNAL.BDRip.x264-MARS
+2024-03-24 17:12:51,888 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Funny.Games.2007.iNTERNAL.BDRip.x264-MARS for renaming.
+2024-03-24 17:12:51,888 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Ghost.Rider.2007.Extended.1080p.BluRay.DDP.5.1.H.265-EDGE2020
+2024-03-24 17:12:51,888 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Ghost.Rider.2007.Extended.1080p.BluRay.DDP.5.1.H.265-EDGE2020 for renaming.
+2024-03-24 17:12:51,888 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Grindhouse.Planet.Terror.2007.1080p.BluRay.x264-OFT
+2024-03-24 17:12:51,888 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Grindhouse.Planet.Terror.2007.1080p.BluRay.x264-OFT for renaming.
+2024-03-24 17:12:51,889 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Grindhouse.Planet.Terror.2007.1080p.BluRay.x264-OFT for renaming.
+2024-03-24 17:12:51,889 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Hot.Fuzz.2007.REMASTERED.PROPER.1080p.BluRay.x265-RARBG
+2024-03-24 17:12:51,889 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Hot.Fuzz.2007.REMASTERED.PROPER.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:12:51,889 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Hot.Fuzz.2007.REMASTERED.PROPER.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:12:51,889 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\I.Am.Legend.2007.Theatrical.Cut.PROPER.1080p.BluRay.AV1.Opus.5.1-Retr0
+2024-03-24 17:12:51,889 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\I.Am.Legend.2007.Theatrical.Cut.PROPER.1080p.BluRay.AV1.Opus.5.1-Retr0 for renaming.
+2024-03-24 17:12:51,889 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Little.Man.2006.1080p.BluRay.x265-RARBG
+2024-03-24 17:12:51,889 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Little.Man.2006.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:12:51,889 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Little.Man.2006.1080p.BluRay.x265-RARBG for renaming.
+2024-03-24 17:12:51,889 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Quiet on Set- The Dark Side of Kids TV (2024)
+2024-03-24 17:12:51,889 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Quiet on Set- The Dark Side of Kids TV (2024) for renaming.
+2024-03-24 17:12:51,889 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Sweeney Todd - Il diabolico barbiere di Fleet Street - The Demon Barber of Fleet Street (2007) AC3 5.1 ITA.ENG 1080p H265 sub ita.eng Sp33dy94-MIRCrew
+2024-03-24 17:12:51,890 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Sweeney Todd - Il diabolico barbiere di Fleet Street - The Demon Barber of Fleet Street (2007) AC3 5.1 ITA.ENG 1080p H265 sub ita.eng Sp33dy94-MIRCrew for renaming.
+2024-03-24 17:12:51,890 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\The.Break.Up.2007.1080p.BluRay.H264.AAC-RARBG
+2024-03-24 17:12:51,890 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\The.Break.Up.2007.1080p.BluRay.H264.AAC-RARBG for renaming.
+2024-03-24 17:12:51,890 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\The.Break.Up.2007.1080p.BluRay.H264.AAC-RARBG for renaming.
+2024-03-24 17:12:51,890 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\The.Omen.2006.UNCUT.1080p.BluRay.H264.AAC-RARBG
+2024-03-24 17:12:51,890 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\The.Omen.2006.UNCUT.1080p.BluRay.H264.AAC-RARBG for renaming.
+2024-03-24 17:12:51,890 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\The.Omen.2006.UNCUT.1080p.BluRay.H264.AAC-RARBG for renaming.
+2024-03-24 17:12:51,890 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\We.Are.Marshall.2006.TUBI.WEB-DL.AAC.2.0.H.264-PiRaTeS
+2024-03-24 17:12:51,890 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\We.Are.Marshall.2006.TUBI.WEB-DL.AAC.2.0.H.264-PiRaTeS for renaming.
+2024-03-24 17:12:51,890 - DEBUG - Checking folder: C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Why.Did.I.Get.Married.2007.TUBI.WEB-DL.AAC.2.0.H.264-PiRaTeS
+2024-03-24 17:12:51,890 - DEBUG - No valid movie file found in C:/Users/joshu/OneDrive/Desktop/Downloads/Ready for Review\Why.Did.I.Get.Married.2007.TUBI.WEB-DL.AAC.2.0.H.264-PiRaTeS for renaming.
+2024-03-24 17:12:51,891 - INFO - Movie folders renamed based on current movies, regardless of this run's renaming.
+2024-03-24 17:12:51,891 - INFO - Script finished successfully
