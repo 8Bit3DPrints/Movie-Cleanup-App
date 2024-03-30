@@ -48,7 +48,8 @@ class MovieCleanupGUI:
         ttk.Button(control_frame, text="Organize Files into Folders", command=self.start_organize_files_into_folders).grid(row=5, column=0, columnspan=3, padx=5, pady=2)
         ttk.Button(control_frame, text="Process Subtitles", command=self.start_process_subtitles).grid(row=6, column=0, columnspan=3, padx=5, pady=2)
         ttk.Button(control_frame, text="Rename Subtitles and NFO", command=self.start_rename_subtitles_and_nfo).grid(row=7, column=0, columnspan=3, padx=5, pady=2)
-
+        ttk.Button(control_frame, text="Rename Movie Folders", command=self.start_rename_movie_folders).grid(row=8, column=0, columnspan=3, padx=5, pady=2)
+        
         # Log messages display
         self.log_text = tk.Text(log_frame, height=10, width=75)
         self.log_text.pack(padx=5, pady=5, fill=tk.BOTH, expand=True)
@@ -152,6 +153,19 @@ class MovieCleanupGUI:
             self.append_log_message("Finished renaming subtitles and NFO files.")
         except Exception as e:
             self.append_log_message(f"An error occurred while renaming subtitles and NFO files: {str(e)}")
+
+    def start_rename_movie_folders(self):
+        """Start renaming movie folders in a separate thread."""
+        threading.Thread(target=self.rename_movie_folders_task, daemon=True).start()
+
+    def rename_movie_folders_task(self):
+        """Task to rename movie folders."""
+        self.append_log_message("Renaming movie folders...")
+        try:
+            rename_movie_folders(self.config["movies_directory"], tuple(self.config["movie_extensions"]))
+            self.append_log_message("Finished renaming movie folders.")
+        except Exception as e:
+            self.append_log_message(f"An error occurred while renaming movie folders: {str(e)}")
 
 if __name__ == "__main__":
     root = tk.Tk()
