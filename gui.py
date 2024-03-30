@@ -46,8 +46,14 @@ class MovieCleanupGUI:
         # Button for organizing files into folders
         tk.Button(self.master, text="Organize Files into Folders", command=self.start_organize_files_into_folders).grid(row=7, column=1)
 
-        # Button for moving and renaming subtitles and NFO files
-        tk.Button(self.master, text="Move and Rename Subtitles/NFO", command=self.start_move_and_rename_subtitles_and_nfo).grid(row=8, column=1)
+        # Add two new buttons for the separated subtitle functions
+        tk.Button(self.master, text="Process Subtitles", command=self.start_process_subtitles).grid(row=9, column=1)
+        tk.Button(self.master, text="Rename Subtitles and NFO", command=self.start_rename_subtitles_and_nfo).grid(row=10, column=1)
+
+        # Update row numbers for the logging messages display if needed
+        self.log_text = tk.Text(self.master, height=10, width=75)
+        self.log_text.grid(row=11, column=0, columnspan=3)  # Adjust row as needed
+        self.log_text.insert(tk.END, "Logging messages will appear here...\n")
 
         # Logging messages display
         self.log_text = tk.Text(self.master, height=10, width=75)
@@ -130,18 +136,31 @@ class MovieCleanupGUI:
         except Exception as e:
             self.append_log_message(f"An error occurred: {str(e)}")    
 
-    def start_move_and_rename_subtitles_and_nfo(self):
-        """Start moving and renaming subtitles and NFO files in a separate thread."""
-        threading.Thread(target=self.move_and_rename_subtitles_and_nfo_task, daemon=True).start()
+    def start_process_subtitles(self):
+        """Start processing subtitles in a separate thread."""
+        threading.Thread(target=self.process_subtitles_task, daemon=True).start()
 
-    def move_and_rename_subtitles_and_nfo_task(self):
-        """Task to move and rename subtitles and NFO files based on configuration."""
-        self.append_log_message("Starting to move and rename subtitles/NFO...")
+    def start_rename_subtitles_and_nfo(self):
+        """Start renaming subtitles and NFO files in a separate thread."""
+        threading.Thread(target=self.rename_subtitles_and_nfo_task, daemon=True).start()
+
+    def process_subtitles_task(self):
+        """Task to process subtitles."""
+        self.append_log_message("Processing subtitles...")
         try:
-            move_and_rename_subtitles_and_nfo(self.config)  # Pass the entire config dictionary
-            self.append_log_message("Finished moving and renaming subtitles/NFO.")
+            process_subtitles(self.config)  # Assuming this function exists in movie_cleanup module
+            self.append_log_message("Finished processing subtitles.")
         except Exception as e:
-            self.append_log_message(f"An error occurred: {str(e)}")
+            self.append_log_message(f"An error occurred while processing subtitles: {str(e)}")
+
+    def rename_subtitles_and_nfo_task(self):
+        """Task to rename subtitles and NFO files."""
+        self.append_log_message("Renaming subtitles and NFO files...")
+        try:
+            rename_subtitles_and_nfo(self.config)  # Assuming this function exists in movie_cleanup module
+            self.append_log_message("Finished renaming subtitles and NFO files.")
+        except Exception as e:
+            self.append_log_message(f"An error occurred while renaming subtitles and NFO files: {str(e)}")
 
 if __name__ == "__main__":
     root = tk.Tk()

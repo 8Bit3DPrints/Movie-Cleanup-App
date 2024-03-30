@@ -103,11 +103,9 @@ def organize_files_into_folders(directory):
             except Exception as e:
                 logging.error(f"Error organizing {item} into folders: {e}")
 
-@retry((Exception), tries=4, delay=1, backoff=2)
-def move_and_rename_subtitles_and_nfo(config):
+def process_subtitles(config):
     directory = config["movies_directory"]
     subtitle_folder_names = config["subtitle_folder_names"]
-    movie_extensions = config["movie_extensions"]
     english_identifiers = config.get("english_identifiers", ["eng", "english", "en"])
 
     if not os.path.exists(directory):
@@ -115,54 +113,42 @@ def move_and_rename_subtitles_and_nfo(config):
         return
 
     for root, dirs, files in os.walk(directory, topdown=False):
-        movie_files = [f for f in files if os.path.splitext(f)[1] in movie_extensions]
         subtitle_files = [f for f in files if f.endswith('.srt')]
 
-        # Check for exact subtitle matches first and remove all non-matching subtitles
+        # Process subtitles within their folders
+        for dir in dirs:
+            if dir in subtitle_folder_names:
+                sub_folder_path = os.path.join(root, dir)
+                try:
+                    for filename in os.listdir(sub_folder_path):
+                        source = os.path.join(sub_folder_path, filename)
+                        if filename.endswith('.srt'):
+                            if is_english_subtitle(filename):
+                                destination = os.path.join(root, filename)
+                                shutil.move(source, destination)
+                                logging.info(f"Moved: {source} to {destination}")
+                            else:
+                                os.remove(source)
+                                logging.info(f"Deleted non-English subtitle: {source}")
+                    shutil.rmtree(sub_folder_path)
+                    logging.info(f"Deleted subtitle folder: {sub_folder_path}")
+                except Exception as e:
+                    logging.error(f"Error processing subtitles in {sub_folder_path}: {e}")
+
+def rename_subtitles_and_nfo(config):
+    directory = config["movies_directory"]
+    movie_extensions = config["movie_extensions"]
+
+    if not os.path.exists(directory):
+        logging.error(f"The path {directory} is not a valid path.")
+        return
+
+    for root, _, files in os.walk(directory, topdown=False):
+        movie_files = [f for f in files if os.path.splitext(f)[1] in movie_extensions]
+        
         for movie_file in movie_files:
             movie_base_name = os.path.splitext(movie_file)[0]
-            exact_match_subtitle_name = f"{movie_base_name}.srt"
-            exact_match_subtitle = None
-
-            # Identify the exact match subtitle if it exists
-            for sub_file in subtitle_files:
-                if sub_file == exact_match_subtitle_name:
-                    exact_match_subtitle = sub_file
-                    break
-
-            # If there's an exact match, delete all other subtitle files
-            if exact_match_subtitle:
-                for sub_file in subtitle_files:
-                    if sub_file != exact_match_subtitle:
-                        sub_file_path = os.path.join(root, sub_file)
-                        os.remove(sub_file_path)
-                        logging.info(f"Deleted non-matching subtitle: {sub_file}")
-                # Continue to the next movie file after handling subtitles for this one
-                continue
-
-            # For movies without an exact matching subtitle, process other subtitles
-            for dir in dirs:
-                if dir in subtitle_folder_names:
-                    sub_folder_path = os.path.join(root, dir)
-                    try:
-                        for filename in os.listdir(sub_folder_path):
-                            source = os.path.join(sub_folder_path, filename)
-                            if filename.endswith('.srt'):
-                                # Move only English subtitles
-                                if is_english_subtitle(filename):
-                                    destination = os.path.join(root, filename)
-                                    shutil.move(source, destination)
-                                    logging.info(f"Moved: {source} to {destination}")
-                                else:
-                                    # Delete non-English subtitles
-                                    os.remove(source)
-                                    logging.info(f"Deleted non-English subtitle: {source}")
-                        shutil.rmtree(sub_folder_path)
-                        logging.info(f"Deleted folder: {sub_folder_path}")
-                    except Exception as e:
-                        logging.error(f"Error moving or deleting subtitle files in {sub_folder_path}: {e}")
-
-            # Additional logic for renaming .srt and .nfo files
+            
             for file_to_rename in files:
                 if file_to_rename.endswith('.srt') or file_to_rename.endswith('.nfo'):
                     new_name = f"{movie_base_name}{os.path.splitext(file_to_rename)[1]}"
@@ -173,9 +159,11 @@ def move_and_rename_subtitles_and_nfo(config):
                             os.rename(old_file_path, new_file_path)
                             logging.info(f"Renamed: {file_to_rename} to {new_name}")
                         else:
-                            logging.warning(f"Skipped: {file_to_rename} already matches the movie name or target name exists.")
+                            if old_file_path != new_file_path:
+                                logging.warning(f"Skipped: {file_to_rename} already matches the movie name or target name exists.")
                     except Exception as e:
                         logging.error(f"Error renaming {file_to_rename} to {new_name}: {e}")
+                   
 
 @retry((Exception), tries=4, delay=1, backoff=2)
 def rename_movie_folders(directory, movie_extensions):
