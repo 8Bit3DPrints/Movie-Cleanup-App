@@ -2,7 +2,9 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 import threading
 import json
-from movie_cleanup import clean_unwanted_files, organize_files_into_folders, move_and_rename_subtitles_and_nfo, rename_movie_folders
+from movie_cleanup import (clean_unwanted_files, organize_files_into_folders, 
+                           process_subtitles, rename_subtitles_and_nfo, 
+                           rename_movie_folders)
 
 class MovieCleanupGUI:
     def __init__(self, master, config_path):
