@@ -46,6 +46,8 @@ class MovieCleanupGUI:
         # Button for organizing files into folders
         tk.Button(self.master, text="Organize Files into Folders", command=self.start_organize_files_into_folders).grid(row=7, column=1)
 
+        # Button for moving and renaming subtitles and NFO files
+        tk.Button(self.master, text="Move and Rename Subtitles/NFO", command=self.start_move_and_rename_subtitles_and_nfo).grid(row=8, column=1)
 
         # Logging messages display
         self.log_text = tk.Text(self.master, height=10, width=75)
@@ -127,6 +129,19 @@ class MovieCleanupGUI:
             self.append_log_message("Finished organizing files into folders.")
         except Exception as e:
             self.append_log_message(f"An error occurred: {str(e)}")    
+
+    def start_move_and_rename_subtitles_and_nfo(self):
+        """Start moving and renaming subtitles and NFO files in a separate thread."""
+        threading.Thread(target=self.move_and_rename_subtitles_and_nfo_task, daemon=True).start()
+
+    def move_and_rename_subtitles_and_nfo_task(self):
+        """Task to move and rename subtitles and NFO files based on configuration."""
+        self.append_log_message("Starting to move and rename subtitles/NFO...")
+        try:
+            move_and_rename_subtitles_and_nfo(self.config)  # Pass the entire config dictionary
+            self.append_log_message("Finished moving and renaming subtitles/NFO.")
+        except Exception as e:
+            self.append_log_message(f"An error occurred: {str(e)}")
 
 if __name__ == "__main__":
     root = tk.Tk()

@@ -65,7 +65,12 @@ def organize_files_into_folders(directory):
                 logging.error(f"Error organizing {item} into folders: {e}")
 
 @retry((Exception), tries=4, delay=1, backoff=2)
-def move_and_rename_subtitles_and_nfo(directory, subtitle_folder_names, movie_extensions):
+def move_and_rename_subtitles_and_nfo(config):
+    directory = config["movies_directory"]
+    subtitle_folder_names = config["subtitle_folder_names"]
+    movie_extensions = config["movie_extensions"]
+    english_identifiers = config.get("english_identifiers", ["eng", "english", "en"])  # Provide a default in case it's missing
+
     if not os.path.exists(directory):
         logging.error(f"The path {directory} is not a valid path.")
         return
@@ -76,11 +81,18 @@ def move_and_rename_subtitles_and_nfo(directory, subtitle_folder_names, movie_ex
                 sub_folder_path = os.path.join(root, dir)
                 try:
                     for filename in os.listdir(sub_folder_path):
+                        source = os.path.join(sub_folder_path, filename)
                         if filename.endswith('.srt'):
-                            source = os.path.join(sub_folder_path, filename)
-                            destination = os.path.join(root, filename)
-                            shutil.move(source, destination)
-                            logging.info(f"Moved: {source} to {destination}")
+                            # Move only English subtitles
+                            if any(eng_id.lower() in filename.lower() for eng_id in english_identifiers):
+                                destination = os.path.join(root, filename)
+                                shutil.move(source, destination)
+                                logging.info(f"Moved: {source} to {destination}")
+                            else:
+                                # Delete non-English subtitles
+                                os.remove(source)
+                                logging.info(f"Deleted non-English subtitle: {source}")
+                    # Delete the subtitles folder
                     shutil.rmtree(sub_folder_path)
                     logging.info(f"Deleted folder: {sub_folder_path}")
                 except Exception as e:
