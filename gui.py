@@ -40,6 +40,13 @@ class MovieCleanupGUI:
         self.start_button = tk.Button(self.master, text="Start Cleanup", command=self.run_script)
         self.start_button.grid(row=4, column=1)
 
+        # Button for cleaning unwanted files
+        tk.Button(self.master, text="Clean Unwanted Files", command=self.start_clean_unwanted_files).grid(row=6, column=1)
+
+        # Button for organizing files into folders
+        tk.Button(self.master, text="Organize Files into Folders", command=self.start_organize_files_into_folders).grid(row=7, column=1)
+
+
         # Logging messages display
         self.log_text = tk.Text(self.master, height=10, width=75)
         self.log_text.grid(row=5, column=0, columnspan=3)
@@ -94,6 +101,32 @@ class MovieCleanupGUI:
         script_thread = threading.Thread(target=target)
         # Start the thread
         script_thread.start()
+
+    def start_clean_unwanted_files(self):
+        """Start cleaning unwanted files in a separate thread."""
+        threading.Thread(target=self.clean_unwanted_files_task, daemon=True).start()
+
+    def start_organize_files_into_folders(self):
+        """Start organizing files into folders in a separate thread."""
+        threading.Thread(target=self.organize_files_into_folders_task, daemon=True).start()
+
+    def clean_unwanted_files_task(self):
+        """Task to clean unwanted files."""
+        self.append_log_message("Cleaning unwanted files...")
+        try:
+            clean_unwanted_files(self.config["movies_directory"], tuple(self.config["unwanted_extensions"]))
+            self.append_log_message("Finished cleaning unwanted files.")
+        except Exception as e:
+            self.append_log_message(f"An error occurred: {str(e)}")
+
+    def organize_files_into_folders_task(self):
+        """Task to organize files into folders."""
+        self.append_log_message("Organizing files into folders...")
+        try:
+            organize_files_into_folders(self.config["movies_directory"])
+            self.append_log_message("Finished organizing files into folders.")
+        except Exception as e:
+            self.append_log_message(f"An error occurred: {str(e)}")    
 
 if __name__ == "__main__":
     root = tk.Tk()

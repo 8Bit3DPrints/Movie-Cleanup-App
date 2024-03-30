@@ -1,3 +1,3 @@
 @echo off
-python "%~dp0movie_cleanup.py"
+python "%~dp0gui.py"
 pause
