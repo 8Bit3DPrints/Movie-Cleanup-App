@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox
+from tkinter import filedialog, messagebox, ttk
 import threading
 import json
 from movie_cleanup import (clean_unwanted_files, organize_files_into_folders, 
@@ -24,42 +24,34 @@ class MovieCleanupGUI:
             json.dump(self.config, file, indent=4)
 
     def setup_gui(self):
+        control_frame = ttk.Frame(self.master)
+        control_frame.pack(padx=10, pady=10, fill=tk.X)
+
+        log_frame = ttk.Frame(self.master)
+        log_frame.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
+
         # Directory selection
-        tk.Label(self.master, text="Movie Directory:").grid(row=0, column=0, sticky="w")
+        ttk.Label(control_frame, text="Movie Directory:").grid(row=0, column=0, sticky="w", padx=5, pady=2)
         self.movie_directory_var = tk.StringVar(value=self.config.get("movies_directory", ""))
-        tk.Entry(self.master, textvariable=self.movie_directory_var, width=50).grid(row=0, column=1)
-        tk.Button(self.master, text="Browse", command=self.select_movie_directory).grid(row=0, column=2)
+        ttk.Entry(control_frame, textvariable=self.movie_directory_var, width=50).grid(row=0, column=1, padx=5, pady=2)
+        ttk.Button(control_frame, text="Browse", command=self.select_movie_directory).grid(row=0, column=2, padx=5, pady=2)
 
         # Configurable lists (extensions, etc.)
-        tk.Label(self.master, text="Unwanted Extensions (comma-separated):").grid(row=1, column=0, sticky="w")
+        ttk.Label(control_frame, text="Unwanted Extensions (comma-separated):").grid(row=1, column=0, sticky="w", padx=5, pady=2)
         self.unwanted_ext_var = tk.StringVar(value=",".join(self.config.get("unwanted_extensions", [])))
-        tk.Entry(self.master, textvariable=self.unwanted_ext_var, width=50).grid(row=1, column=1, columnspan=2)
+        ttk.Entry(control_frame, textvariable=self.unwanted_ext_var, width=50).grid(row=1, column=1, columnspan=2, padx=5, pady=2)
 
-        # Save configuration button
-        tk.Button(self.master, text="Save Configuration", command=self.save_configuration).grid(row=3, column=1)
+        # Action buttons
+        ttk.Button(control_frame, text="Save Configuration", command=self.save_configuration).grid(row=2, column=0, columnspan=3, padx=5, pady=5)
+        ttk.Button(control_frame, text="Start Cleanup", command=self.run_script).grid(row=3, column=0, columnspan=3, padx=5, pady=2)
+        ttk.Button(control_frame, text="Clean Unwanted Files", command=self.start_clean_unwanted_files).grid(row=4, column=0, columnspan=3, padx=5, pady=2)
+        ttk.Button(control_frame, text="Organize Files into Folders", command=self.start_organize_files_into_folders).grid(row=5, column=0, columnspan=3, padx=5, pady=2)
+        ttk.Button(control_frame, text="Process Subtitles", command=self.start_process_subtitles).grid(row=6, column=0, columnspan=3, padx=5, pady=2)
+        ttk.Button(control_frame, text="Rename Subtitles and NFO", command=self.start_rename_subtitles_and_nfo).grid(row=7, column=0, columnspan=3, padx=5, pady=2)
 
-        # Start button
-        self.start_button = tk.Button(self.master, text="Start Cleanup", command=self.run_script)
-        self.start_button.grid(row=4, column=1)
-
-        # Button for cleaning unwanted files
-        tk.Button(self.master, text="Clean Unwanted Files", command=self.start_clean_unwanted_files).grid(row=6, column=1)
-
-        # Button for organizing files into folders
-        tk.Button(self.master, text="Organize Files into Folders", command=self.start_organize_files_into_folders).grid(row=7, column=1)
-
-        # Add two new buttons for the separated subtitle functions
-        tk.Button(self.master, text="Process Subtitles", command=self.start_process_subtitles).grid(row=9, column=1)
-        tk.Button(self.master, text="Rename Subtitles and NFO", command=self.start_rename_subtitles_and_nfo).grid(row=10, column=1)
-
-        # Update row numbers for the logging messages display if needed
-        self.log_text = tk.Text(self.master, height=10, width=75)
-        self.log_text.grid(row=11, column=0, columnspan=3)  # Adjust row as needed
-        self.log_text.insert(tk.END, "Logging messages will appear here...\n")
-
-        # Logging messages display
-        self.log_text = tk.Text(self.master, height=10, width=75)
-        self.log_text.grid(row=5, column=0, columnspan=3)
+        # Log messages display
+        self.log_text = tk.Text(log_frame, height=10, width=75)
+        self.log_text.pack(padx=5, pady=5, fill=tk.BOTH, expand=True)
         self.log_text.insert(tk.END, "Logging messages will appear here...\n")
 
     def select_movie_directory(self):
@@ -70,8 +62,6 @@ class MovieCleanupGUI:
     def save_configuration(self):
         self.config["movies_directory"] = self.movie_directory_var.get()
         self.config["unwanted_extensions"] = [ext.strip() for ext in self.unwanted_ext_var.get().split(",") if ext.strip()]
-        # Add saving for other config items here
-
         self.save_config()
         messagebox.showinfo("Configuration", "Configuration saved successfully.")
 
@@ -95,7 +85,6 @@ class MovieCleanupGUI:
                 # Ensure you are using self.config for script operations
                 # Note: Directly using the methods might not update the GUI with logs. You might need a custom logging handler.
                 organize_files_into_folders(self.config["movies_directory"])
-                move_and_rename_subtitles_and_nfo(self.config["movies_directory"], self.config["subtitle_folder_names"], self.config["movie_extensions"])
                 clean_unwanted_files(self.config["movies_directory"], tuple(self.config["unwanted_extensions"]))
                 rename_movie_folders(self.config["movies_directory"], self.config["movie_extensions"])
 
